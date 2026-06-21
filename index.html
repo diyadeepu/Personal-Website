@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diya Deepu — AI Product Management & Technical Innovation</title>
+  <meta name="description" content="Diya Deepu — Sophomore Honors Computer Science Student at Oregon State University | Business Minor | 4.0 GPA" />
+  <!-- Modern typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Custom butterfly cursor element (native cursor is hidden by CSS) -->
+  <div id="butterfly" aria-hidden="true">🦋</div>
+
+  <main class="container">
+    <header class="hero glass" role="banner">
+      <div class="hero-left">
+        <h1 class="name">Diya Deepu <span class="cite">[cite: 22]</span></h1>
+        <p class="headline">Sophomore Honors Computer Science Student at Oregon State University | Business Minor | 4.0 GPA <span class="cite">[cite: 23]</span></p>
+        <p class="contact">maildiyadeepu@gmail.com <span class="cite">[cite: 2]</span> | <a href="https://www.linkedin.com/in/diyadeepu" target="_blank" rel="noopener">www.linkedin.com/in/diyadeepu <span class="cite">[cite: 3]</span></a></p>
+        <p class="summary">I'm a current sophomore honors undergraduate student at Oregon State University with a major in Computer Science and a minor in business, deeply passionate and driven towards AI product management<span class="cite">[cite: 26]</span>. I leverage my background in AI and full-stack development to translate technical requirements into adaptable, strategic product goals<span class="cite">[cite: 27]</span>.</p>
+      </div>
+
+      <div class="hero-right">
+        <div class="avatar glass" aria-hidden="true">
+          <!-- Small stylized avatar mark -->
+          <svg width="86" height="86" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DD monogram">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#51e3fc"/>
+                <stop offset="1" stop-color="#9566ff"/>
+              </linearGradient>
+            </defs>
+            <rect width="100" height="100" rx="18" fill="url(#g1)" opacity="0.14"/>
+            <circle cx="50" cy="40" r="22" fill="#0f1724" stroke="url(#g1)" stroke-width="2"/>
+            <text x="50" y="58" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Arial" font-size="24" fill="#fff">DD</text>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <section class="content">
+      <section class="card glass" id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+
+        <div class="exp-item">
+          <h3>MIME Research Assistant | URSA Engage Program <span class="dates">(Feb 2026 - Present)</span> <span class="cite">[cite: 31, 32]</span></h3>
+          <ul>
+            <li>Programming a mathematical model to solve complex logistical issues in emergency truck parking <span class="cite">[cite: 34]</span>.</li>
+            <li>Defining project scope and balancing infrastructural constraints with user needs <span class="cite">[cite: 35]</span>.</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <h3>Product Management Intern | Cardinal Services <span class="dates">(Spring 2026)</span></h3>
+          <ul>
+            <li>Handling cross-functional agile workflows and gathering user stories for interactive employee handbooks.</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <h3>Youth Member | City of Lake Oswego <span class="dates">(Sep 2023 - Jun 2025)</span> <span class="cite">[cite: 37, 39]</span></h3>
+          <ul>
+            <li>Crafted a DEI framework for local advisory boards to prioritize future goals <span class="cite">[cite: 40]</span>.</li>
+            <li>Suggested inputs to build more ramps in local attractions and use QR codes for non-English speakers <span class="cite">[cite: 41]</span>.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card glass" id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills & Certifications</h2>
+        <div class="two-col">
+          <div>
+            <h4>Skills</h4>
+            <p>Prompt Engineering, Product Development, HTML, JavaScript <span class="cite">[cite: 5, 6, 12, 13]</span></p>
+            <h4>Languages</h4>
+            <p>English (Native), Malayalam (Native), Spanish (Elementary) <span class="cite">[cite: 8, 9, 10]</span></p>
+          </div>
+
+          <div>
+            <h4>Awards</h4>
+            <p>AP Scholar with Distinction, 2x Oregon/SW Washington Affiliate Winner <span class="cite">[cite: 18, 19, 21]</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card glass" id="courses" aria-labelledby="courses-heading">
+        <h2 id="courses-heading">Coursework Dashboard</h2>
+
+        <div class="toggle-row" role="tablist" aria-label="Coursework toggles">
+          <button class="toggle active" id="completedToggle" role="tab" aria-selected="true">Completed at OSU</button>
+          <button class="toggle" id="plannedToggle" role="tab" aria-selected="false">Planned Coursework</button>
+        </div>
+
+        <div id="cardsContainer" class="cards-grid" aria-live="polite">
+          <!-- Cards are injected via script.js -->
+        </div>
+      </section>
+    </section>
+
+    <footer class="footer glass" role="contentinfo">
+      <p>&copy; <span id="year"></span> Diya Deepu — Designed with focus on AI Product Management & Technical Innovation.</p>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
