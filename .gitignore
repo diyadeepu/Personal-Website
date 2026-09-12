@@ -1,0 +1,75 @@
+# .gitignore for Personal Website
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Build and Dependencies
+node_modules/
+dist/
+build/
+.cache/
+
+# Logs
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.db
+*.sqlite
+
+# Local testing
+*.local
+test-results/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Analytics and tracking (if using local tracking)
+tracking/
+analytics/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Package manager lock files (optional - include for reproducibility)
+# package-lock.json
+# yarn.lock
+
+# Deployment
+.netlify/
+.vercel/
+out/
+
+# IDE Configuration (project-specific)
+.vscode/settings.json
+.idea/workspace.xml
+
+# Personal notes (keep out of repo)
+notes.md
+TODO.md
+personal-info.txt
+
